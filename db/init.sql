@@ -12,7 +12,7 @@ UNSIGNED: Positive numbers.
 */
 
  
-CREATE {DATABASE | SCHEMA} [IF NOT EXISTS] patientsdb;
+CREATE DATABASE IF NOT EXISTS patientsdb;
 
 USE patientsdb;
 
