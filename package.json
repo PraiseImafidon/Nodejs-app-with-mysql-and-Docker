@@ -1,0 +1,28 @@
+{
+  "name": "nodejsmysqldocker",
+  "version": "1.0.0",
+  "description": "Node js app with Express, Docker and mySql",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "docker",
+    "mysql"
+  ],
+  "author": "Praise Ru Imafidon",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "ip": "^1.1.8",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.21",
+    "pino": "^8.11.0",
+    "pino-pretty": "^9.4.0"
+  }
+}
