@@ -16,7 +16,7 @@ CREATE DATABASE IF NOT EXISTS patientsdb;
 
 USE patientsdb;
 
- DROP TABLE IF EXISTS patients; /*the DROP TABLE statement removes one or more tables if they already exist.*/
+DROP TABLE IF EXISTS patients; /*the DROP TABLE statement removes one or more tables if they already exist.*/
 
 CREATE TABLE patients (
 id          BIGINT UNSIGNED NOT NULL AUTO_INCREMENT, /*if you do not specify unsigned, then bigint will be signed. Unsigned means you cannot insert negative numbers.*/
