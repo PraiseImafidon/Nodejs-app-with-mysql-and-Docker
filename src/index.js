@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 
 //middleware
-app.use(cors({ origin: '*'})); //* any application can send a request to this backend server
+app.use(cors({ origin: '*'})); //any application can send a request to this backend server
 app.use(express.json()); //request to the frontend will be in json format
 
 app.get('/', (req, res) =>
